@@ -1,9 +1,64 @@
+@import url("//hello.myfonts.net/count/3d3f46");
+
+@font-face {
+  font-family: "SequelSans-BookBody";
+  src: url("webFonts/SequelSansBookBody/font.woff2") format("woff2"),
+    url("webFonts/SequelSansBookBody/font.woff") format("woff");
+}
+@font-face {
+  font-family: "SequelSans-BookDisp";
+  src: url("webFonts/SequelSansBookDisp/font.woff2") format("woff2"),
+    url("webFonts/SequelSansBookDisp/font.woff") format("woff");
+}
+@font-face {
+  font-family: "SequelSans-BookHead";
+  src: url("webFonts/SequelSansBookHead/font.woff2") format("woff2"),
+    url("webFonts/SequelSansBookHead/font.woff") format("woff");
+}
+@font-face {
+  font-family: "SequelSans-SemiBoldDisp";
+  src: url("webFonts/SequelSansSemiBoldDisp/font.woff2") format("woff2"),
+    url("webFonts/SequelSansSemiBoldDisp/font.woff") format("woff");
+}
+@font-face {
+  font-family: "SequelSans-RomanHead";
+  src: url("webFonts/SequelSansRomanHead/font.woff2") format("woff2"),
+    url("webFonts/SequelSansRomanHead/font.woff") format("woff");
+}
+
 html,
 body {
+  /**
+ * @license
+ * MyFonts Webfont Build ID 4013894, 2021-02-13T14:16:37-0500
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * You may obtain a valid license at the URLs below.
+ * Webfont: SequelSans-BookDisp by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans/book-display/
+ * Webfont: SequelSans-BookBody by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans/book-body-text/
+ * Webfont: SequelSans-BookHead by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans/book-headline/
+ * Webfont: SequelSans-SemiBoldDisp by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans/semi-bold-display/
+ * Webfont: SequelSans-MediumHead by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans/medium-headline/
+ * Webfont: SequelSans-RomanHead by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans/roman-headline/
+ * Webfonts copyright: Oliver Jeschke / ogj type design 
+ * © 2021 MyFonts Inc
+*/
+
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100%;
+  background: #000;
+  color: #fff;
+  font-family: "SequelSans-BookDisp", Arial, sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 a {
@@ -13,4 +68,13 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+#__next {
+  height: 100%;
+}
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
 }
