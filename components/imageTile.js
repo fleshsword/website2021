@@ -5,7 +5,6 @@ export default function Imagetile({ label, image, bgColor }) {
     <Container bgColor={bgColor}>
       <label>{label}</label>
       <img src={image} />
-      <div>hello</div>
     </Container>
   );
 }

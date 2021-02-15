@@ -9,11 +9,10 @@ export const Container = styled.div`
 `;
 export const Hero = styled.h1`
   height: 284px;
-  width: 870px;
+  width: 950px;
   display: flex;
   align-items: center;
   justify-content: middle;
-  padding: 0 40px;
   color: #fff;
   font-family: Sequel Sans;
   font-size: 40px;
@@ -21,11 +20,11 @@ export const Hero = styled.h1`
   font-weight: 400;
   line-height: 71px;
   letter-spacing: 0em;
-  margin-bottom: 200px;
+  font-family: "SequelSans-BookHead", Arial, Helvetica, sans-serif, San serif;
 `;
 
 export const TileContainer = styled.div`
   > div {
-    margin-bottom: 80px;
+    margin-bottom: 20vh;
   }
 `;

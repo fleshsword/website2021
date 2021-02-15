@@ -26,6 +26,18 @@
     url("webFonts/SequelSansRomanHead/font.woff") format("woff");
 }
 
+@font-face {
+  font-family: "SequelSans-MediumHead";
+  src: url("webFonts/SequelSansMediumHead/font.woff2") format("woff2"),
+    url("webFonts/SequelSansMediumHead/font.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Druk Cond Web";
+  src: url("webFonts//DrukCond-Super/DrukCond-Super-Web.woff2") format("woff2"),
+    url("webFonts/DrukCond-Super/DrukCond-Super-Web.woff") format("woff");
+}
+
 html,
 body {
   /**
@@ -59,6 +71,18 @@ body {
   font-family: "SequelSans-BookDisp", Arial, sans-serif;
   overflow-x: hidden;
   overflow-y: auto;
+  text-rendering: geometricPrecision;
+}
+body::-webkit-scrollbar {
+  width: 2px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #1b1b1b;
 }
 
 a {

@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-export default function Icon({ src, href }) {
+export default function Icon({ src, href, padding }) {
   const Img = <img src={src} />;
   return (
-    <Container>
+    <Container padding={padding}>
       {href && <a href={href}>{Img}</a>}
 
       {!href && Img}
@@ -13,6 +13,8 @@ export default function Icon({ src, href }) {
 
 const Container = styled.div`
   img {
-    width: 40px;
+    width: 24px;
+    height: 24px;
+    margin-top: ${(p) => p.padding}px;
   }
 `;

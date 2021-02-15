@@ -9,12 +9,17 @@ export const Container = styled.div`
   background: ${(p) => p.bgColor};
   max-width: 1140px;
   width: 100%;
-  height: 600px;
+  height: 72vh;
+  border-radius: 2px;
+  margin: auto;
   label {
-    font-size: 80px;
-    font-weight: bold;
+    font-size: 220px;
+    color: #000;
     text-transform: uppercase;
-    letter-spacing: -3px;
+    font-family: "Druk Cond Web";
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
   }
   img {
     top: 50%;

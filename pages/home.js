@@ -8,21 +8,36 @@ export default function Home() {
       <Container>
         <Hero>
           Hey, I’m Todd. I design digital products for global institutions like
-          HSBC, Bain & Company and Google. I also work with startups like
-          Sportninja, Hubrick and Exodus. Sometime I write articles about design
-          too.
+          HSBC, Bain & Company and Google. <br></br>I also work with startups
+          like Sportninja, Hubrick and Exodus. Sometime I write articles about
+          design too.
         </Hero>
       </Container>
       <TileContainer>
         <Imagetile
-          label="SportNinja"
+          label="Google"
           image="/img/sportninjahome.png"
-          bgColor="red"
+          bgColor="#C6FFF1"
+        />
+        <Imagetile
+          label="Hubrick"
+          image="/img/sportninjahome.png"
+          bgColor="#C6FFCF"
+        />
+        <Imagetile
+          label="HSBC"
+          image="/img/sportninjahome.png"
+          bgColor="#C6FFF1"
+        />
+        <Imagetile
+          label="Exodus"
+          image="/img/sportninjahome.png"
+          bgColor="#C6FFCF"
         />
         <Imagetile
           label="SportNinja"
           image="/img/sportninjahome.png"
-          bgColor="purple"
+          bgColor="#C6FFF1"
         />
       </TileContainer>
 
